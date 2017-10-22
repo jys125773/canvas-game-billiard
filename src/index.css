@@ -1,0 +1,25 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    height: 100%;
+    width: 100%;
+}
+
+#game {
+    position: relative;
+    width: 800px;
+    height: 544px;
+    padding: 20px;
+}
+
+canvas {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 28px;
+    cursor: crosshair;
+    width: 800px;
+    height: 544px;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
